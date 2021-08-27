@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "GakujoTextCount",
+  "version": "0.4.0",
+  "description": "Add label of text-length in textbox of gakujo.",
+  "author": "Tawataso",
+  "content_scripts": [
+    {
+      "matches": ["*://gakujo.shizuoka.ac.jp/*"],
+      "js": ["gakujo-text-count.js"]
+    }
+  ],
+  "applications": {
+
+  },
+  "_comment":"‚ ‚Æ‚Í‘õ‚µ‚½"
+}
